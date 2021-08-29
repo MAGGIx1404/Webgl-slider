@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <ul id="scene">
+      <li data-depth="0.2">
+        <img src="./images/star.svg" alt="error" />
+      </li>
+      <li data-depth="0.4">
+        <img src="./images/moonlight.svg" alt="error" class="moon-light" />
+      </li>
+      <li data-depth="0.5">
+        <img src="./images/b_cloud01.svg" alt="error" class="cloud-1" />
+      </li>
+      <li data-depth="0.5">
+        <img src="./images/b_cloud02.svg" alt="error" class="cloud-2" />
+      </li>
+      <li data-depth="0.6">
+        <img src="./images/moon.svg" alt="error" class="moon" />
+      </li>
+      <li data-depth="0.7">
+        <img src="./images/cloud1.svg" alt="error" class="dark-cloud-1" />
+      </li>
+      <li data-depth="0.7">
+        <img src="./images/cloud2.svg" alt="error" class="dark-cloud-2" />
+      </li>
+      <li data-depth="0.7">
+        <img src="./images/cloud3.svg" alt="error" class="dark-cloud-3" />
+      </li>
+    </ul>
+
+    <main>
+      <div class="frame">
+        <h3 class="frame__logo">JEET.</h3>
+        <button class="frame__button">Menu</button>
+        <p class="frame__artist">
+          <span
+            >Artist —
+            <a
+              href="https://maggix1404.github.io/Portfolio-2.0/"
+              target="_blank"
+              >Jeet Ramoliya</a
+            ></span
+          >
+        </p>
+        <p class="frame__credits">
+          <span
+            >Github —
+            <a href="https://github.com/MAGGIx1404">MAGGIx1404</a></span
+          >
+        </p>
+      </div>
+
+      <div class="slider">
+        <div class="slider__image--wrapper">
+          <img
+            class="slider__image slider__image--4"
+            src="./images/minato.jpg"
+            alt="image 04"
+          />
+          <img
+            class="slider__image slider__image--3"
+            src="./images/itachi.jpg"
+            alt="image 03"
+          />
+          <img
+            class="slider__image slider__image--2"
+            src="./images/madara.jpg"
+            alt="image 02"
+          />
+          <img
+            class="slider__image slider__image--1"
+            src="./images/pain-1.png"
+            alt="image 01"
+          />
+        </div>
+        <div class="slider__slide-info--wrapper">
+          <div class="slider__silde-info slide--current">
+            <h2 class="slide__index" data-splitting>01</h2>
+            <div class="slide__text--wrapper">
+              <h2 class="slide__text slide__text--title" data-splitting>
+                MINATO
+              </h2>
+              <p class="slide__text slide__text--description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellat, temporibus.
+              </p>
+            </div>
+          </div>
+          <div class="slider__silde-info">
+            <h2 class="slide__index" data-splitting>02</h2>
+            <div class="slide__text--wrapper">
+              <h2 class="slide__text slide__text--title" data-splitting>
+                ITACHI
+              </h2>
+              <p class="slide__text slide__text--description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptate eaque magni adipisci?
+              </p>
+            </div>
+          </div>
+          <div class="slider__silde-info">
+            <h2 class="slide__index" data-splitting>03</h2>
+            <div class="slide__text--wrapper">
+              <h2 class="slide__text slide__text--title" data-splitting>
+                MADARA
+              </h2>
+              <p class="slide__text slide__text--description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                aspernatur laborum optio laboriosam sit!
+              </p>
+            </div>
+          </div>
+          <div class="slider__silde-info">
+            <h2 class="slide__index" data-splitting>04</h2>
+            <div class="slide__text--wrapper">
+              <h2 class="slide__text slide__text--title" data-splitting>
+                PAIN
+              </h2>
+              <p class="slide__text slide__text--description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+                illo explicabo odio aliquid impedit deleniti vitae distinctio
+                quos?
+              </p>
+            </div>
+          </div>
+        </div>
+        <nav class="slider__nav--wrapper">
+          <button class="slider__nav slider__nav--prev">
+            <svg>
+              <path
+                d="M 47.5547,8.05465 H 4.94603 L 10.0165,3.00878 C 10.5822,2.44568 10.5844,1.53058 10.0213,0.964816 9.45823,0.398976 8.54305,0.396881 7.97729,0.959902 L 0.425238,8.47552 c -5.06e-4,4.4e-4 -8.67e-4,9.4e-4 -0.0013,0.00138 -0.564323,0.56309 -0.566129,1.48115 -1.45e-4,2.0461 5.06e-4,5e-4 8.67e-4,10e-4 0.001301,0.0014 L 7.97714,18.04 c 0.5657,0.563 1.48087,0.561 2.04406,-0.0049 0.5631,-0.5658 0.5609,-1.4809 -0.0049,-2.044 L 4.94603,10.9453 H 47.5547 C 48.353,10.9453 49,10.2982 49,9.49996 49,8.70172 48.353,8.05465 47.5547,8.05465 Z"
+                fill="red"
+              />
+            </svg>
+          </button>
+          <button class="slider__nav slider__nav--next">
+            <svg>
+              <path
+                d="M 1.44529,10.9454 H 44.054 l -5.0705,5.0458 c -0.5657,0.5631 -0.5679,1.4782 -0.0048,2.044 0.5631,0.5658 1.4782,0.5679 2.044,0.0049 l 7.5521,-7.5156 c 5e-4,-5e-4 8e-4,-10e-4 0.0013,-0.0014 0.5643,-0.56309 0.5661,-1.48115 1e-4,-2.04613 -5e-4,-4.3e-4 -9e-4,-9.3e-4 -0.0013,-0.00137 L 41.0229,0.959983 C 40.4572,0.397033 39.542,0.398984 38.9788,0.964896 38.4157,1.53066 38.4179,2.44576 38.9837,3.00886 L 44.054,8.05473 H 1.44528 C 0.64704,8.05473 -2.75561e-5,8.7018 -2.74863e-5,9.50004 -2.74165e-5,10.2983 0.647041,10.9454 1.44529,10.9454 Z"
+                fill="red"
+              />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </main>
+
+    <svg
+      class="cursor cursor--large"
+      width="60"
+      height="60"
+      viewBox="0 0 60 60"
+    >
+      <circle class="cursor__inner" cx="30" cy="30" r="20" />
+    </svg>
+    <svg
+      class="cursor cursor--small"
+      width="60"
+      height="60"
+      viewBox="0 0 60 60"
+    >
+      <circle class="cursor__inner" cx="30" cy="30" r="5" />
+    </svg>
+    <svg
+      class="cursor cursor--close"
+      width="40"
+      height="40"
+      viewBox="0 0 512 512"
+    >
+      <line x1="368" y1="368" x2="144" y2="144" />
+      <line x1="368" y1="144" x2="144" y2="368" />
+    </svg>
+
+    <div class="loading__wrapper">
+      <h4 class="loading__text">
+        <span class="loading__text--inner">WELCOME TO MY WORLD...</span>
+      </h4>
+      <h1 class="text__wrapper">
+        <span class="text__row">
+          <span class="text">THE AKATSUKI</span>
+        </span>
+        <span class="text__row text__row--sibling" aria-hidden="true">
+          <span class="text">THE AKATSUKI</span>
+        </span>
+        <span class="text__row text__row--sibling" aria-hidden="true">
+          <span class="text">THE AKATSUKI</span>
+        </span>
+        <span class="text__row text__row--sibling" aria-hidden="true">
+          <span class="text">THE AKATSUKI</span>
+        </span>
+        <span class="text__row text__row--sibling" aria-hidden="true">
+          <span class="text">THE AKATSUKI</span>
+        </span>
+        <span class="text__row text__row--sibling" aria-hidden="true">
+          <span class="text">THE AKATSUKI</span>
+        </span>
+      </h1>
+      <div class="bg__transition--slide"></div>
+    </div>
+
+    <!-- //////// SHADER CODE //////// -->
+
+    <script id="vertexShader" type="x-shader/x-vertex">
+      precision mediump float;
+
+      varying vec2 vUv;
+      varying float vWave;
+
+      uniform float uTime;
+      uniform float uAmplitude;
+      uniform float uProgDirection;
+      uniform float uMouseOverAmp;
+      uniform float uRadius;
+
+      uniform vec2 uMeshSize;
+      uniform vec2 uMousePos;
+
+      uniform bool uAnimating;
+      uniform bool uTranslating;
+
+      float mapVal(in float n,in float start1,in float stop1,in float start2,in float stop2){
+              return((n-start1)/(stop1-start1))*(stop2-start2)+start2;
+      }
+
+      void main(){
+              vec3 pos=position;
+              vUv=uv;
+
+              vec2 center=vUv-uMousePos;
+              center.x*=uMeshSize.x/uMeshSize.y;
+              float dist=length(center);
+
+              float radius=uRadius;
+
+              float mask=smoothstep(radius,radius*5.,dist);
+              float d=mapVal(mask,-1.,1.,-1.,0.);
+
+              if(uAnimating){
+                      pos.z=sin(pos.x*5.+uTime*10.*uProgDirection)*uAmplitude;
+                      pos.z*=2.5;
+              }else{
+                      pos.z=d*uMouseOverAmp;
+                      pos.z*=15.;
+              }
+
+              if(uTranslating){
+                      pos.z=sin(pos.y*6.+uTime*10.)*uAmplitude;
+                      pos.z*=3.5;
+              }
+
+              vWave=pos.z;
+
+              gl_Position=projectionMatrix*modelViewMatrix*vec4(pos,1.);
+      }
+    </script>
+
+    <script id="fragmentShader" type="x-shader/x-fragment">
+      precision mediump float;
+
+      varying vec2 vUv;
+      varying float vWave;
+
+      uniform float uTime;
+      uniform float uProg;
+      uniform float uProgDirection;
+
+      uniform sampler2D uCurrTex;
+      uniform sampler2D uNextTex;
+
+      uniform vec2 uMeshSize;
+      uniform vec2 uImageSize;
+
+      vec2 backgroundCoverUv(vec2 uv,vec2 canvasSize,vec2 textureSize){
+              vec2 ratio=vec2(
+                      min((canvasSize.x/canvasSize.y)/(textureSize.x/textureSize.y),1.),
+                      min((canvasSize.y/canvasSize.x)/(textureSize.y/textureSize.x),1.)
+              );
+
+              vec2 uvWithRatio=uv*ratio;
+
+              return vec2(
+                      uvWithRatio.x+(1.-ratio.x)*.5,
+                      uvWithRatio.y+(1.-ratio.y)*.5
+              );
+      }
+
+      void main(){
+              vec2 texUv=backgroundCoverUv(vUv,uMeshSize,uImageSize);
+
+              float x=uProg;
+              float y;
+              if(uProgDirection==1.)y=(x*2.+(vUv.x-1.));
+              else y=((x*2.)-vUv.x);
+              x=smoothstep(0.,1.,y);
+
+              float w=vWave;
+
+              float r1=texture2D(uCurrTex,texUv+w*.04).r;
+              float g1=texture2D(uCurrTex,texUv+w*.01).g;
+              float b1=texture2D(uCurrTex,texUv+w*-.03).b;
+              vec3 tex1=vec3(r1,g1,b1);
+
+              float r2=texture2D(uNextTex,texUv+w*.04).r;
+              float g2=texture2D(uNextTex,texUv+w*.01).g;
+              float b2=texture2D(uNextTex,texUv+w*-.03).b;
+              vec3 tex2=vec3(r2,g2,b2);
+
+              float scaleUp=(.4+.6*(1.-uProg));
+              float scaleDown=(.6+.4*uProg);
+
+              vec4 f1=mix(
+                      texture2D(uCurrTex,texUv*(1.-x)*scaleUp+vec2(.15)*uProg),
+                      texture2D(uNextTex,texUv*x*scaleDown),
+              x);
+
+              vec3 f2=mix(tex1,tex2,x);
+
+              vec4 final=mix(f1,vec4(f2,1.),.12);
+
+              gl_FragColor=final;
+      }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+      var scene = document.getElementById("scene");
+      var parallaxInstance = new Parallax(scene);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tiny-emitter@2.1.0/index.min.js"></script>
+    <script src="./javscript/app.js"></script>
+  </body>
+</html>
+
+<!-- 654331939 -->
