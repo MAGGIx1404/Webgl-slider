@@ -2,4 +2,4 @@
 naruto theme base webgl animated slider......
 
 
-![scrrenshot](./screen.png)
+![](./screen1.png)
